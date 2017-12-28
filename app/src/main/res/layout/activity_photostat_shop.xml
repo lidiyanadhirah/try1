@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a455l.try1.PhotostatShop">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LIST OF PRINTING SHOP"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="37dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/expert"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="PRINT EXPERT SDN BHD"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_above="@+id/psa"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/psa"
+        android:layout_marginTop="21dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/psa"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="PSA DESIGN MANAGEMENT"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_above="@+id/trio"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="11dp"
+        app:layout_constraintTop_toBottomOf="@+id/expert"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/trio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="TRIO PRINTING AND SUPPLY ENTERPRISE"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_centerVertical="true"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/psa"
+        android:layout_marginTop="9dp"
+        app:layout_constraintTop_toBottomOf="@+id/psa"
+        app:layout_constraintLeft_toLeftOf="@+id/psa" />
+
+    <Button
+        android:id="@+id/barokah"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="BAROKAH PHOTOSTAT AND PRINTING SERVICES"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_centerVertical="true"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/trio"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@+id/trio"
+        app:layout_constraintLeft_toLeftOf="@+id/trio" />
+
+    <Button
+        android:id="@+id/my"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="MY PRINT SHOP"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_centerVertical="true"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/barokah"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/barokah"
+        app:layout_constraintLeft_toLeftOf="@+id/barokah" />
+
+</android.support.constraint.ConstraintLayout>
+

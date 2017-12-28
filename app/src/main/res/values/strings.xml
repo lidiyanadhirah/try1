@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">Navigation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="button_name">Go to second screen</string>
+    <string name="title1">Welcome to Agn\’s Navigation (First screen)</string>
+    <string name="title2">Welcome to Agn\’s Navigation (second screen)</string>
+    <string name="title_activity_baju_murah">Map</string>
+    <string name="title_activity_baju_murah_map">Map</string>
+    <string name="title_activity_barokah_map">Map</string>
+    <string name="title_activity_mrj_print_map">Map</string>
+    <string name="title_activity_my_print_shopmap">Map</string>
+    <string name="title_activity_print_expert">Map</string>
+    <string name="title_activity_psamap">Map</string>
+    <string name="title_activity_rf_map">Map</string>
+    <string name="title_activity_trio_maps">Map</string>
+</resources>

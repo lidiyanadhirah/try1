@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a455l.try1">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/cetak"
+        android:label="Cetak"
+        android:roundIcon="@mipmap/cetaksmall"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ReviewPrintExpert" />
+        <activity android:name=".ReviewTrioPrinting" />
+        <activity android:name=".ReviewBarokah" />
+        <activity android:name=".ReviewIdealMaster" />
+        <activity android:name=".ReviewMRJ" />
+        <activity android:name=".ReviewMY" />
+        <activity android:name=".ReviewPSA" />
+        <activity android:name=".ReviewRF" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Banner" />
+        <activity android:name=".Bunting" />
+        <activity android:name=".TshirtPrinting" />
+        <activity android:name=".PhotoBook" />
+        <activity android:name=".PhotostatShop" />
+        <activity android:name=".Card" />
+        <activity android:name=".PrintExpertDetails" />
+        <activity android:name=".BarokahDetails" />
+        <activity android:name=".MRJDetails" />
+        <activity android:name=".RFdetails" />
+        <activity android:name=".TrioPrintingDetails" />
+        <activity android:name=".PSADetails" />
+        <activity android:name=".IdealMasterDetails" />
+        <activity android:name=".MYPrintDetails" />
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".BajuMurahMap"
+            android:label="@string/title_activity_baju_murah_map" />
+        <activity
+            android:name=".BarokahMap"
+            android:label="@string/title_activity_barokah_map" />
+        <activity
+            android:name=".MrjPrintMap"
+            android:label="@string/title_activity_mrj_print_map" />
+        <activity
+            android:name=".MyPrintShopmap"
+            android:label="@string/title_activity_my_print_shopmap" />
+        <activity
+            android:name=".PrintExpert"
+            android:label="@string/title_activity_print_expert" />
+        <activity
+            android:name=".PSAMap"
+            android:label="@string/title_activity_psamap" />
+        <activity
+            android:name=".RfMap"
+            android:label="@string/title_activity_rf_map" />
+        <activity
+            android:name=".TrioMaps"
+            android:label="@string/title_activity_trio_maps"></activity>
+    </application>
+
+</manifest>
